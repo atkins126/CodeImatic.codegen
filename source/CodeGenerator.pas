@@ -5,7 +5,7 @@ interface
 Uses Classes, NovusTemplate, NovusList, ExpressionParser, SysUtils,
   Config, NovusStringUtils, Interpreter, Language, Project,
   Output, Variables, NovusUtilities, CodeGeneratorItem, tagtype,
-  NovusBO, NovusFileUtils, Template, ScriptEngine, System.IOUtils, Plugin,
+  NovusBO, NovusFileUtils, Template, PascalScript, System.IOUtils, Plugin,
   {TokenProcessor,} Loader, ProjectItem;
 
 Const
@@ -407,7 +407,7 @@ begin
         Result := false;
 
         foOutput.LogError('Save Error: ' + aOutputFilename +
-          ' - IsTextFile Fail');
+          ' - IsTextFile Failed');
 
         Exit;
       end;

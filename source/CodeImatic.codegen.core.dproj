@@ -160,7 +160,6 @@
         <DCCReference Include="NovusCodeLibrary_WebUtils.dcp"/>
         <DCCReference Include="NovusCodeLibrary_Indy.dcp"/>
         <DCCReference Include="NovusCodeLibrary_Console.dcp"/>
-        <DCCReference Include="Plugin.pas"/>
         <DCCReference Include="Output.pas"/>
         <DCCReference Include="Plugins\API\APIBase.pas"/>
         <DCCReference Include="Runtime.pas"/>
@@ -184,7 +183,7 @@
         <DCCReference Include="Properties.pas"/>
         <DCCReference Include="CodeGenerator.pas"/>
         <DCCReference Include="Interpreter.pas"/>
-        <DCCReference Include="ScriptEngine.pas"/>
+        <DCCReference Include="PascalScript.pas"/>
         <DCCReference Include="RuntimeProjectItems.pas"/>
         <DCCReference Include="FunctionsParser.pas"/>
         <DCCReference Include="TokenProcessor.pas"/>
@@ -194,6 +193,8 @@
         <DCCReference Include="FileExistsFunctionParser.pas"/>
         <DCCReference Include="ProjectConfigLoader.pas"/>
         <DCCReference Include="CommandLine.pas"/>
+        <DCCReference Include="Plugin.pas"/>
+        <DCCReference Include="Language.pas"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
